@@ -1,0 +1,12 @@
+on:
+  push:
+    branches:
+      - "**"
+
+jobs:
+  destroy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: pwd
+      - run: cd /
+      - run: pwd
